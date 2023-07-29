@@ -1,0 +1,15 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+ErrorDocument 403 /error.html
+ErrorDocument 404 /error.html
+ErrorDocument 500 /error.html
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond $1 !^(index\.php)
+RewriteRule .* index.php [PT,L]
+
+# :: CHANGE INTO UNDER MAINTENANCE :: 
+# COMMENT ON RewriteCond %{REQUEST_FILENAME} !-f
+# CHANGE index TO under_maintenance
+# DELETE /$0

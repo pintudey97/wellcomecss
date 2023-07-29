@@ -1,0 +1,8 @@
+User-agent: Googlebot
+Disallow: /assets/
+
+User-agent: MSNbot
+Disallow: /assets/
+
+
+Crawl-Delay: 20 

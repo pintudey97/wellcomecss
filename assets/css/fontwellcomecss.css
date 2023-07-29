@@ -1,0 +1,197 @@
+@font-face {
+  font-family: 'fontwellcomecss';
+  src:  url('../fonts/fontwellcomecss.eot');
+  src:  url('../fonts/fontwellcomecss.eot') format('embedded-opentype'),
+    url('../fonts/fontwellcomecss.ttf') format('truetype'),
+    url('../fonts/fontwellcomecss.woff') format('woff'),
+    url('../fonts/fontwellcomecss.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fw{
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'fontwellcomecss' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.fw-5x{
+	font-size:150px;
+	}
+.fw-4x{
+	font-size:120px;
+	}
+.fw-3x{
+	font-size:90px;
+	}
+.fw-2x{
+	font-size:60px;
+	}
+.fw-2x{
+	font-size:30px;
+	}
+
+.fw-apple:before {
+  content: "\e900";
+}
+.fw-attachment:before {
+  content: "\e901";
+}
+.fw-back:before {
+  content: "\e902";
+}
+.fw-calendar:before {
+  content: "\e903";
+}
+.fw-chat:before {
+  content: "\e904";
+}
+.fw-checked:before {
+  content: "\e905";
+}
+.fw-chrome:before {
+  content: "\e906";
+}
+.fw-coding:before {
+  content: "\e907";
+}
+.fw-css3:before {
+  content: "\e908";
+}
+.fw-database:before {
+  content: "\e909";
+}
+.fw-desktop:before {
+  content: "\e90a";
+}
+.fw-drive:before {
+  content: "\e90b";
+}
+.fw-earth:before {
+  content: "\e90c";
+}
+.fw-facebook:before {
+  content: "\e90d";
+}
+.fw-facebook-round:before {
+  content: "\e90e";
+}
+.fw-file:before {
+  content: "\e90f";
+}
+.fw-firefox:before {
+  content: "\e910";
+}
+.fw-folder:before {
+  content: "\e911";
+}
+.fw-fontwellcomecss:before {
+  content: "\e912";
+}
+.fw-google-plus:before {
+  content: "\e913";
+}
+.fw-headphones:before {
+  content: "\e914";
+}
+.fw-home:before {
+  content: "\e915";
+}
+.fw-html5:before {
+  content: "\e916";
+}
+.fw-instagram:before {
+  content: "\e917";
+}
+.fw-instagram-round:before {
+  content: "\e918";
+}
+.fw-internet:before {
+  content: "\e919";
+}
+.fw-laptop:before {
+  content: "\e91a";
+}
+.fw-linkedin:before {
+  content: "\e91b";
+}
+.fw-linkedin-round:before {
+  content: "\e91c";
+}
+.fw-linkedin-square:before {
+  content: "\e91d";
+}
+.fw-location:before {
+  content: "\e91e";
+}
+.fw-next:before {
+  content: "\e91f";
+}
+.fw-pdf:before {
+  content: "\e920";
+}
+.fw-phone-book:before {
+  content: "\e921";
+}
+.fw-phone-call:before {
+  content: "\e922";
+}
+.fw-phone-calling:before {
+  content: "\e923";
+}
+.fw-safari:before {
+  content: "\e924";
+}
+.fw-search:before {
+  content: "\e925";
+}
+.fw-send:before {
+  content: "\e926";
+}
+.fw-skype:before {
+  content: "\e927";
+}
+.fw-time:before {
+  content: "\e928";
+}
+.fw-time-o:before {
+  content: "\e929";
+}
+.fw-twitter:before {
+  content: "\e92a";
+}
+.fw-twitter-round:before {
+  content: "\e92b";
+}
+.fw-uparrow:before {
+  content: "\e92c";
+}
+.fw-user:before {
+  content: "\e92d";
+}
+.fw-users-group:before {
+  content: "\e92e";
+}
+.fw-whatsapp:before {
+  content: "\e92f";
+}
+.fw-wifi:before {
+  content: "\e930";
+}
+.fw-windows:before {
+  content: "\e931";
+}
+.fw-zip:before {
+  content: "\e932";
+}
+

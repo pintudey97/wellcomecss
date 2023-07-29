@@ -1,0 +1,5 @@
+scss --watch scss/wellcomecss.min.scss:css/wellcomecss.min.css --style :compact
+
+
+
+http://sasscolourfunctioncalculator.tim-barden.co.uk/

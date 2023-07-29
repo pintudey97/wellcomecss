@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0px;
+        padding: 0px;        
+    }
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+    .form-group{
+        position: fixed;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+    }
+    #blue,#warning,#purple,#red{
+        width: 100%;
+        height: 800px;
+        padding: 100px;
+    }    
+    #blue{
+        background-color: #1761b6;
+    }
+    #warning{
+        background-color: #b67617;
+    }
+    #purple{
+        background-color: #441394;
+    }
+    #red{
+        background-color: #bd2410;
+    }
+    </style>
+</head>
+<body>
+<div class="form-group">
+<a href="#blue" class="scrl">Blue</a>
+<a href="#warning" class="scrl">Warning</a>
+<a href="#purple" class="scrl">Purple</a>
+<a href="#red" class="scrl">Red</a>
+</div>
+            
+<div id="blue">Blue Background Color</div>
+<div id="warning">Warning  Background Color</div>
+<div id="purple">Purple Background Color</div>
+<div id="red">Red Background Color</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+//Main Functional Query
+var root = $('html, body');
+    $('.scrl').click(function() {
+        root.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 1000);
+    return false;
+});
+</script>
+</body>
+</html>
